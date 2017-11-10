@@ -39,8 +39,8 @@ class CashRegister
     item_names
   end
   def void_last_transaction
-# subtracts the last transaction from the total 
+# subtracts the last transaction from the total
  self.total = self.total - self.last_transaction
-end 
+end
 
 end
